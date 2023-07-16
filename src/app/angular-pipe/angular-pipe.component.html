@@ -1,0 +1,15 @@
+<p>[Decimal Pipe] Numero PI: {{ pi | number : "1.0-4" }}</p>
+
+<p>[Slice Pipe] Las primeras palabras son: {{ text | slice : 0 : 4 }}</p>
+
+<p>
+  [Currency Pipe] El precio de este producto es:
+  {{ price | currency : "EUR" : "symbol" : "1.0-2" }}
+</p>
+
+<p>[Date Pipe] Hoy es el día: {{ today | date : "shortDate" }}</p>
+
+<p>
+  <span id="yellow" yellowDirective>[Custom Directive] PASA EL RATÓN POR ENCIMA Y ME VUELVO AMARILLO</span
+  >
+</p>
